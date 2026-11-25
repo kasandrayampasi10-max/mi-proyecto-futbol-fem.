@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FUTBOL FEM | Iniciar sesión</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="login-body">
+  <main class="login-layout">
+    <section class="login-info">
+      <div class="brand-mark">FF</div>
+      <p class="eyebrow">GESTIÓN DEPORTIVA</p>
+      <h1>FUTBOL <span>FEM</span></h1>
+      <p class="login-description">Organiza tu equipo, registra jugadoras y lleva el control de cada entrenamiento y partido.</p>
+      <div class="login-decoration">
+        <span>JUNTAS</span><strong>EN LA CANCHA.</strong>
+      </div>
+    </section>
+    <section class="login-card">
+      <p class="eyebrow">BIENVENIDA</p>
+      <h2>Iniciar sesión</h2>
+      <p class="muted">Ingresa tus datos para acceder al sistema.</p>
+      <form id="loginForm">
+        <label for="usuario">Usuario o correo electrónico</label>
+        <input id="usuario" name="usuario" type="text" placeholder="Ingresa tu usuario" autocomplete="username">
+        <label for="contrasena">Contraseña</label>
+        <input id="contrasena" name="contrasena" type="password" placeholder="Ingresa tu contraseña" autocomplete="current-password">
+        <p id="loginMessage" class="form-message" role="alert"></p>
+        <button class="btn btn-primary btn-full" type="submit">Ingresar al sistema</button>
+      </form>
+      <div class="demo-access">
+        <strong>Datos de demostración</strong>
+        <span>Usuario: <b>admin</b></span>
+        <span>Contraseña: <b>futbol123</b></span>
+      </div>
+      <p class="login-footer">FUTBOL FEM · Sistema de Gestión Deportiva</p>
+    </section>
+  </main>
+  <script src="js/login.js"></script>
+</body>
+</html>

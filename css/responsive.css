@@ -1,0 +1,35 @@
+@media (max-width: 1000px) {
+  .login-layout { grid-template-columns: 1fr 420px; gap: 25px; padding: 30px; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .app-shell { grid-template-columns: 210px 1fr; }
+  .content { padding: 25px 22px; }
+}
+@media (max-width: 720px) {
+  .login-layout { display: flex; flex-direction: column; justify-content: center; padding: 25px 16px; gap: 25px; }
+  .login-info { padding: 5px; text-align: center; }
+  .login-info .brand-mark { margin: auto; }
+  .login-info .eyebrow { margin-top: 16px; }
+  .login-info h1 { font-size: 43px; letter-spacing: -2px; }
+  .login-description { font-size: 13px; margin: 8px auto; }
+  .login-decoration { display: none; }
+  .login-card { width: 100%; max-width: 450px; padding: 27px 22px; }
+  .app-shell { display: block; }
+  .sidebar { padding: 13px; }
+  .sidebar-brand { padding: 0 5px 12px; }
+  .sidebar .nav-title, .sidebar-bottom { display: none; }
+  .sidebar nav { display: flex; overflow-x: auto; gap: 5px; padding-top: 10px; }
+  .nav-link { min-width: max-content; width: auto; padding: 9px 11px; font-size: 11px; }
+  .nav-icon { display: none; }
+  .topbar { height: 58px; padding: 0 16px; }
+  .topbar-right > span:first-child { display: none; }
+  .content { padding: 22px 14px; }
+  .page-heading { align-items: flex-start; flex-direction: column; }
+  .page-heading h1 { font-size: 21px; }
+  .stats-grid { gap: 10px; }
+  .stat-card { padding: 14px; }
+  .stat-number { font-size: 23px; }
+  .dashboard-grid { grid-template-columns: 1fr; }
+  .panel { padding: 17px; }
+  .toolbar { flex-direction: column; }
+  .toolbar input { max-width: none; }
+}
